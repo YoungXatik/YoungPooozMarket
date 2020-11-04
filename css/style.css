@@ -1,0 +1,27 @@
+li {
+    list-style-type: none;
+}
+.navbar {
+    background: #0060C0;
+    font-family: 'Roboto', sans-serif;
+    border: 5px solid #000000;
+}
+.nav-link {
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+}
+#content {
+    padding-right: 13%;
+    padding-left: 13%;
+}
+#navbarDropdown {
+    background-color: #000000;
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 32px;
+    border: none;
+}
