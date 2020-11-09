@@ -1,27 +1,50 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
 li {
     list-style-type: none;
 }
+
+p {
+    margin: 0;
+}
+
+section {
+    background-color: #000000;
+    color: #FFFFFF;
+    background-clip: content-box;
+}
+
 .navbar {
     background: #0060C0;
     font-family: 'Roboto', sans-serif;
     border: 5px solid #000000;
 }
+
 .nav-link {
     color: #000000;
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
 }
-#content {
-    padding-right: 13%;
-    padding-left: 13%;
+
+.dropdown-item {
+    text-align: center;
 }
+
 #navbarDropdown {
     background-color: #000000;
-
     text-align: center;
     font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
     font-size: 18px;
     line-height: 32px;
     border: none;
+}
+
+#description {
+    margin-top: 20px;
 }
